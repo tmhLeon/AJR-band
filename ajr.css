@@ -1,0 +1,181 @@
+.button{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin-left: 25px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logos{
+    display: flex;
+    
+}
+.logos img{
+    margin: 5px;
+}
+
+.bossbuttons{
+    display: flex;
+    align-items: center;
+    margin-top:-35px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 900px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.mySlides{
+  width: 1000px;
+  height: 755px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 0;
+}
+
+.Backgroundcolor{
+  background-color: #E7DEDE;
+  width: calc(100% - 20px);
+  height: 760px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 10px;
+  display: flex;
+  gap: 120px;
+  
+
+}
+
+body{
+  width: 100%;
+  margin: 0px ;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.outerbox{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  width: 452px;
+  height: 690px;
+  text-align: center;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+
+
+}
+
+.clickybox{
+  border: 5px solid black;
+  padding: 5px;
+  text-decoration: none;
+
+
+}
+a:visited { color:black;}
+.NOLINESALLOWED{
+  text-decoration: none;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 
+      0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:white;
+}
+.lastpage{
+  display: flex;
+  align-items: center;
+}
